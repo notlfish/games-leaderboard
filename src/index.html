@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wbpack Exercise</title>
-</head>
-<body>
-    <h1>But you won't see me</h1>
-</body>
+  </head>
+  <body>
+    <main>
+      <h1>Leaderboard</h1>
+      <div class="grid-container">
+        <div id="scoreboard-container">
+          <div class="title-container f-between">
+            <h3>Recent scores</h3>
+            <button id="refresh-scoreboard">Refresh</button>
+          </div>
+          <ul id="scoreboard">
+            <li>
+              <span class="player-name">Mercedes Sosa:</span>
+              <span class="player-score">1</span>
+            </li>
+            <li>
+              <span class="player-name">Douglas Adams:</span>
+              <span class="player-score">42</span>
+            </li>
+            <li>
+              <span class="player-name">John Conway:</span>
+              <span class="player-score">196,883</span>
+            </li>
+            <li>
+              <span class="player-name">Billy Mitchell:</span>
+              <span class="player-score">3,333,360</span>
+            </li>
+            <li>
+              <span class="player-name">Alexey Berenzin:</span>
+              <span class="player-score">322</span>
+            </li>
+          </ul>
+        </div>
+        <div id="new-score-container">
+          <h3>Add your score</h3>
+          <form>
+            <input placeholder="Your name">
+            <input placeholder="Your score">
+            <button class="form-submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
