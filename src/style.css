@@ -64,3 +64,13 @@ li:nth-child(odd) {
   float: right;
   margin: 0;
 }
+
+.hidden {
+  display: none;
+}
+
+.form-error {
+  color: darkred;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
