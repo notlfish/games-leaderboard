@@ -48,8 +48,11 @@ input {
   align-items: center;
 }
 
-#scoreboard {
+.borders {
   border: 2px solid gray;
+}
+
+#scoreboard {
   border-radius: 5px;
 }
 
