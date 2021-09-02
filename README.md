@@ -2,6 +2,9 @@
 
 Simple webapp to display externally-stored leaderboards for games
 
+## Screenshot
+![Leaderboard main page](assets/leaderboard-main.png)
+
 ## Built With
 
 - HTML
@@ -44,6 +47,9 @@ doesn't, you can just access `localhost:8080` to see the project.
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/JAAR91/Awesome-books/issues).
+
+## Acknowledgements
+The app's style is inspired by [Revelación web page](https://www.ldgamesar.com/).
 
 ## Show your support
 
