@@ -29,11 +29,12 @@ const newScoreScore = document.getElementById('player-score');
 newScore.addEventListener('submit', (event) => {
   event.preventDefault();
   const player = newScorePlayer.value;
-  const score = newScoreScore.value;
+  const scoreStr = newScoreScore.value;
+  const score = parseInt(scoreStr, 10);
   const scoreError = document.querySelector('.form-error');
-  if (player && score && !Number.isNaN(score)) {
+  if (player && !Number.isNaN(score) && score.toString() === scoreStr) {
     scoreError.classList.add('hidden');
-    submitScore(player, parseInt(score, 10)).then(() => {
+    submitScore(player, score).then(() => {
       newScoreScore.value = '';
       newScorePlayer.value = '';
     });

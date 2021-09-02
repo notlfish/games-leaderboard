@@ -1,4 +1,4 @@
-export default 'Revelación';
+export default 'Revelacion';
 const gameID = 'T4KGYhdcz0Eopls7HahX';
 const rootURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
 const requestURL = `${rootURL}/games/${gameID}/scores`;
